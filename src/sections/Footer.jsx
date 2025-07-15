@@ -11,7 +11,7 @@ const Footer = () => {
             </a>
             <a href='https://www.linkedin.com/in/ayaan-haq-3a93b031a/' target= "_blank" rel="noreferrer" className={"flex justify-center gap-3"}>
                 <div className={"social-icon"}>
-                    <img src="/assets/instagram.svg" alt="linkedin" className={"w-1/2 h-1/2"}/>
+                    <img src="/assets/linkedin.svg" alt="linkedin" className={"w-1/2 h-1/2"}/>
                 </div>
             </a>
         </section>
