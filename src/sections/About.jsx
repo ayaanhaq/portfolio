@@ -18,8 +18,13 @@ const About = () => {
                     <div className="grid-container">
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
-                            <p className="grid-headtext">Hi, I am Ayaan</p>
-                            <p className="grid-subtext">Information blah blah blah</p>
+                            <p className="grid-headtext">
+                                Hi, I am Ayaan
+                            </p>
+                            <p className="grid-subtext">
+                                No way writing more information over here fixes
+                                the peoblem of this section
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +52,7 @@ const About = () => {
                                        lat: 43, lng:-84,
                                        text: "I'm here",
                                        color: "white",
-                                       size: 20
+                                       size: 1000
                                    }]}
                             />
                         </div>
