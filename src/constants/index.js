@@ -59,7 +59,7 @@ export const myProjects = [
         subdesc:
             'Under the hood, the tool leverages NLP techniques to preprocess and vectorize text before feeding it into four different classifiers: Logistic Regression, Decision Tree, Gradient Boosting, and Random Forest. Each model provides its own prediction, and the app aggregates their outputs for an overall verdict. Visualizations like bar and pie charts showcase individual model performance, confidence levels, and agreement statistics. With model persistence, optimized parameters, and caching, the app delivers a fast, accurate, and accessible NLP experience.',
         href: 'https://predict-fake-news.streamlit.app/',
-        texture: '/textures/project/project1.mp4',
+        texture: '/textures/project/project_1.mp4',
         logo: '/assets/project1.png',
         logoStyle: {
             backgroundColor: '#101011',
@@ -70,23 +70,18 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Python',
+                path: '/assets/python.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Scikit-learn',
+                path: 'assets/scikit-learn.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Streamlit',
+                path: '/assets/Streamlit.svg',
             },
         ],
     },
@@ -96,7 +91,7 @@ export const myProjects = [
         subdesc:
             'What makes this tool unique is its integration of recent team form through rolling averages, allowing the model to dynamically adjust predictions based on a club’s current momentum rather than just static season-wide stats. By combining traditional match data with short-term performance trends, the app offers more context-aware and realistic forecasting. The interactive Streamlit interface allows users to explore predictions in real time, making it both a powerful and user-friendly platform for football analytics.',
         href: 'https://match-predictor.streamlit.app/',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/project_2.mp4',
         logo: '/assets/project2.png',
         logoStyle: {
             backgroundColor: '#13202F',
@@ -107,23 +102,18 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Python',
+                path: '/assets/python.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Scikit-learn',
+                path: 'assets/scikit-learn.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Streamlit',
+                path: '/assets/Streamlit.svg',
             },
         ],
     },
