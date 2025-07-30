@@ -51,7 +51,7 @@ const Contact = () => {
                         Let's connect
                     </h3>
                     <p className={"text-lg text-white-600 mt-3"}>
-                        Stuff goes here blah blah
+                        For collaborations, opportunities, or just to say hello!
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit} className={"mt-12 flex flex-col space-y-7"}>
                         <label className={"space-y-3"}>

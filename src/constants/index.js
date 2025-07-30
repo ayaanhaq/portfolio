@@ -53,19 +53,20 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Fake News Detection System',
+        desc: 'The Fake News Detector is an interactive web application that applies Natural Language Processing (NLP) and machine learning to classify news articles as fake or real. Built with Streamlit, the app combines a clean, responsive UI with real-time analysis, allowing users to paste in any news content and receive instant predictions with confidence scores.\n' +
+            '\n',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Under the hood, the tool leverages NLP techniques to preprocess and vectorize text before feeding it into four different classifiers: Logistic Regression, Decision Tree, Gradient Boosting, and Random Forest. Each model provides its own prediction, and the app aggregates their outputs for an overall verdict. Visualizations like bar and pie charts showcase individual model performance, confidence levels, and agreement statistics. With model persistence, optimized parameters, and caching, the app delivers a fast, accurate, and accessible NLP experience.',
+        href: 'https://predict-fake-news.streamlit.app/',
         texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        logo: '/assets/project1.png',
         logoStyle: {
-            backgroundColor: '#2A1816',
-            border: '0.2px solid #36201D',
-            boxShadow: '0px 0px 60px 0px #AA3C304D',
+            backgroundColor: '#101011',
+            border: '0.2px solid #5e5d59',
+            boxShadow: '0px 0px 60px 0px #5e5d59',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: '/assets/spotlight_1.png',
         tags: [
             {
                 id: 1,
@@ -90,19 +91,19 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Soccer Match Predictor',
+        desc: 'The Soccer Match Predictor is a Streamlit web application that uses machine learning to forecast the outcomes of German Bundesliga football matches. Powered by a Random Forest classifier trained on data from over 600 historical games, the model considers a range of in-game statistics — including shots, shots on target, average shot distance, free kicks, and penalties — to predict future football matches between two teams.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'What makes this tool unique is its integration of recent team form through rolling averages, allowing the model to dynamically adjust predictions based on a club’s current momentum rather than just static season-wide stats. By combining traditional match data with short-term performance trends, the app offers more context-aware and realistic forecasting. The interactive Streamlit interface allows users to explore predictions in real time, making it both a powerful and user-friendly platform for football analytics.',
+        href: 'https://match-predictor.streamlit.app/',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/project2.png',
         logoStyle: {
             backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+            border: '0.2px solid #13202F',
+            boxShadow: '0px 0px 60px 0px #d41e28',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: '/assets/spotlight_2.png',
         tags: [
             {
                 id: 1,
@@ -126,6 +127,7 @@ export const myProjects = [
             },
         ],
     },
+    /*
     {
         title: 'CarePulse - Health Management System',
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
@@ -239,6 +241,7 @@ export const myProjects = [
             },
         ],
     },
+    */
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
