@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio
 
-Currently, two official plugins are available:
+An engaging and intuitive portfolio website built with Threejs, Tailwind CSS, HTML and more. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Deployment
+
+The app leverages Vercel and its features for hosting.
+
+## Feedback
+
+If you have any feedback, feel free to send me a message from the contact tab on the website. If that doesn't work, then send an email at ayaanhaq1106@gmail.com
+
