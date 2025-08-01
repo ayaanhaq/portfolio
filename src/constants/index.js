@@ -119,7 +119,7 @@ export const myProjects = [
     },
     {
         title: 'SleepScore',
-        desc: 'Sleep Optimizer is a beautifully designed iOS app that helps users build better sleep habits through personalized insights. The app calculates a daily sleep score by factoring in how much caffeine a user has consumed, how close that caffeine was to bedtime, and how many hours they slept. The goal is to help users understand how these habits affect their sleep quality, and make meaningful improvements.',
+        desc: 'SleepScore is a beautifully designed iOS app that helps users build better sleep habits through personalized insights. The app calculates a daily sleep score by factoring in how much caffeine a user has consumed, how close that caffeine was to bedtime, and how many hours they slept. The goal is to help users understand how these habits affect their sleep quality, and make meaningful improvements.',
         subdesc:
             'In addition to sleep scoring, the app also includes a REM cycle-based wake-up planner. By inputting a target bedtime, users receive suggested wake-up times based on 90-minute sleep cycles, helping them wake up at the most optimal point in their sleep rhythm, leading to feeling more rested and alert.',
         href: 'https://github.com/ayaanhaq/SleepScore',
