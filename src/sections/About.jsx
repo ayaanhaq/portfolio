@@ -78,7 +78,7 @@ const About = () => {
                             <p className="grid-headtext">My Passion for Coding</p>
                             <p className="grid-subtext">
                                 I love trying to interweave my hobbies and my passion for programming into creating solutions
-                                which have a positive impact on the world. I’m excited by innovation that lives at the intersection of creativity, data, and usability — and I’m always looking to push the boundaries of what I can build next.
+                                which have a positive impact on the world. I’m excited by innovation that lives at the intersection of creativity, data, and usability. I’m always looking to push the boundaries of what I can build next.
                             </p>
                         </div>
                     </div>

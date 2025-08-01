@@ -87,7 +87,7 @@ export const myProjects = [
     },
     {
         title: 'Soccer Match Predictor',
-        desc: 'The Soccer Match Predictor is a Streamlit web application that uses machine learning to forecast the outcomes of German Bundesliga football matches. Powered by a Random Forest classifier trained on data from over 600 historical games, the model considers a range of in-game statistics — including shots, shots on target, average shot distance, free kicks, and penalties — to predict future football matches between two teams.',
+        desc: 'The Soccer Match Predictor is a Streamlit web application that uses machine learning to forecast the outcomes of German Bundesliga football matches. Powered by a Random Forest classifier trained on data from over 600 historical games, the model considers a range of in-game statistics, including shots, shots on target, average shot distance, free kicks, and penalties. These statistics help the model to predict future football matches between two teams.',
         subdesc:
             'What makes this tool unique is its integration of recent team form through rolling averages, allowing the model to dynamically adjust predictions based on a club’s current momentum rather than just static season-wide stats. By combining traditional match data with short-term performance trends, the app offers more context-aware and realistic forecasting. The interactive Streamlit interface allows users to explore predictions in real time, making it both a powerful and user-friendly platform for football analytics.',
         href: 'https://match-predictor.streamlit.app/',
@@ -117,17 +117,16 @@ export const myProjects = [
             },
         ],
     },
-    /*
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'SleepScore',
+        desc: 'Sleep Optimizer is a beautifully designed iOS app that helps users build better sleep habits through personalized insights. The app calculates a daily sleep score by factoring in how much caffeine a user has consumed, how close that caffeine was to bedtime, and how many hours they slept. The goal is to help users understand how these habits affect their sleep quality, and make meaningful improvements.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-        texture: '/textures/project/project3.mp4',
-        logo: '/assets/project-logo3.png',
+            'In addition to sleep scoring, the app also includes a REM cycle-based wake-up planner. By inputting a target bedtime, users receive suggested wake-up times based on 90-minute sleep cycles, helping them wake up at the most optimal point in their sleep rhythm, leading to feeling more rested and alert.',
+        href: 'https://github.com/ayaanhaq/SleepScore',
+        texture: '/textures/project/project_3.mp4',
+        logo: '/assets/project_3.png',
         logoStyle: {
-            backgroundColor: '#60f5a1',
+            backgroundColor: '#1977dd',
             background:
                 'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
             border: '0.2px solid rgba(208, 213, 221, 1)',
@@ -137,26 +136,17 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Swift',
+                path: '/assets/swift.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'SwiftUI',
+                path: 'assets/swiftui.png',
             },
         ],
     },
+    /*
     {
         title: 'Horizon - Online Banking Platform',
         desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
